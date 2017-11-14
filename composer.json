@@ -1,0 +1,26 @@
+{
+    "name": "demv/gateway",
+    "authors": [
+        {
+            "name": "DEMV-Systems",
+            "email": "packages@demv.de"
+        },
+        {
+            "name": "Randy Schütt",
+            "email": "r.schuett@demv.de",
+            "homepage": "https://github.com/dgame"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "psr/http-message": "^1.0"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ],
+        "psr-4": {
+            "Demv\\Gateway\\": "src/"
+        }
+    }
+}
